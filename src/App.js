@@ -6,6 +6,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/customers" element={<Customers />} />
+        <Route path="/orders" element={<Orders />} />
       </Routes>
     </BrowserRouter>
   );
